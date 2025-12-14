@@ -1,0 +1,19 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEyMzQ1LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4Li4uIn0",
+    "payload": "eyJkb21haW4iOiJoYXRzLW1pbmktYXBwLnZlcmNlbC5hcHAifQ",
+    "signature": "REPLACE_WITH_YOUR_SIGNATURE"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Hats Protocol",
+    "homeUrl": "https://hats-mini-app.vercel.app",
+    "iconUrl": "https://hats-mini-app.vercel.app/icon.png",
+    "splashImageUrl": "https://hats-mini-app.vercel.app/splash.png",
+    "splashBackgroundColor": "#1A1A2E",
+    "webhookUrl": "https://hats-mini-app.vercel.app/api/webhook",
+    "primaryCategory": "developer-tools",
+    "tags": ["hats", "roles", "dao", "onchain", "identity"],
+    "requiredChains": ["eip155:8453", "eip155:10", "eip155:1", "eip155:42161", "eip155:137"]
+  }
+}
